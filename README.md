@@ -180,7 +180,7 @@ sudo mysql
 ```
 Inside MySQL shell:
 ```sql
-ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'Lifebrand321';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY '[YOUR PASSWORD]';
 FLUSH PRIVILEGES;
 EXIT;
 ```
