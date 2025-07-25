@@ -35,6 +35,40 @@ npm -v
 sudo apt install mysql-server -y
 ```
 
+### 3.1 Install Postgres Server
+
+```sh
+sudo apt install postgresql postgresql-contrib
+sudo systemctl start postgresql
+sudo systemctl enable postgresql
+```
+
+### 4 Check Postgres status
+```sh
+sudo systemctl status postgresql
+```
+
+### 5. Switch to postgres user
+```sh
+sudo -i -u postgres
+```
+
+### 6. Access PostgreSQL shell
+```sh
+psql
+```
+
+### 7. Change the password
+```sh
+\password postgres
+```
+
+### Exit psql
+```sh
+\q
+```
+or press Ctrl + D
+
 ## Step 1: Create Nginx Configuration
 Navigate to Nginx Sites-Available Directory:
 ```sh
